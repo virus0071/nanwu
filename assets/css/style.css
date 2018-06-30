@@ -1,0 +1,195 @@
+body, html {
+    height: 100%;
+}
+
+
+#cssmenu{
+    position:fixed;
+    width:100%;
+    
+    
+}
+
+
+
+.parallax {
+    min-height: 1200px;
+    background: transparent;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    padding-top:400px;
+    color:white;
+    font-size:460%;
+}
+
+h2 {
+    text-align: center;
+    padding-top:4%;
+    padding-bottom:3%;
+    color:white;
+    font-size:200%;
+}
+
+h3{
+    text-align: center;
+    margin-top: -4%;
+    margin-bottom:2%;
+}
+
+h4{
+    font-weight:bold;
+    font-size:120%;
+    margin-top:4%;
+    
+}
+
+h5 {
+    font-style: inherit;
+    font-size:100%;
+}
+h6 {
+    text-align: center;
+    margin-top: -4%;
+    font-size: 140%;
+}
+
+
+
+li {
+    font-weight:bold;
+}
+
+.jumbotron {
+    background-image: url("../images/bg2.png");
+}
+
+#textInfo {
+    background-image: url("../images/bg6.png");
+}
+
+#education{
+    background-image: url("../images/bg3.png");
+}
+
+.skill{
+    margin-right:6%;
+    margin-bottom:4%;
+    margin-left:6%;
+}
+
+#html5{
+    width:20%;
+}
+
+#css{
+    width:12%;
+}
+#js{
+    width:13%;
+    margin-left:14%;
+}
+
+#jquery{
+    width:16%;
+}
+
+#bootstrap{
+    width:22%;
+}
+
+#rProject{
+    width:20%;
+}
+
+#mySql{
+    width:20%;
+}
+
+#office{
+    width:20%;
+}
+
+#netbean{
+    width:20%;
+}
+
+
+.jumbotron-work{
+    background-image: url("../images/bg5.png");
+}
+
+#photo {
+    width:100%;
+    text-align: center;
+    
+}
+
+#myPhoto{
+    width:100%;
+}
+
+p {
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+.school {
+    margin-left:20%;
+    margin-top:2%;
+    margin-bottom:2%;
+    width:14%;
+}
+
+span{
+    float:right;
+    margin-right:28%;
+    margin-top:3%;
+}
+
+.fab{
+    font-size:800%;
+    margin-right:6%;
+    margin-left:6%;
+    color:rgb(30, 129, 241);
+
+}
+
+.work {
+    width:100%;
+}
+
+.button-primary{
+    width:100%;
+    margin-top:2%;
+}
+
+.work:hover,
+.school:hover,
+.about:hover,
+.contact:hover,
+.btn-primary:hover
+{
+    opacity: 0.6;
+}
+
+
+
+.about{
+    width:18%;
+    margin-top:6%;
+    margin-right:7%;
+    margin-left:7%;
+}
+
+.contact,
+#phone{
+    width:18%;
+    margin-top:6%;
+    margin-right:6%;
+}
+
