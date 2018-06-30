@@ -75,9 +75,11 @@ li {
     background-image: url("../images/bg3.png");
 }
 
-.jumbotron-skill{
+#skills{
     background-image: url("../images/bg7.png");
 }
+
+
 .skill{
     margin-right:6%;
     margin-bottom:4%;
