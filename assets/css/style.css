@@ -79,6 +79,13 @@ li {
     background-image: url("../images/bg7.png");
 }
 
+#mInfo{
+    background-image: url("../images/bg8.png");
+}
+
+#con{
+    background-image: url("../images/bg9.png");
+}
 
 .skill{
     margin-right:6%;
