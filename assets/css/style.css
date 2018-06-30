@@ -43,6 +43,12 @@ h3{
     font-size:200%;
 }
 
+h4,
+h5
+{
+    text-align: center;
+}
+
 h4{
     font-weight:bold;
     font-size:120%;
@@ -61,10 +67,16 @@ h6 {
     font-size: 180%;
 }
 
-
+.school {
+    margin-left:43%;
+    margin-top:2%;
+    margin-bottom:2%;
+    width:14%;
+}
 
 li {
     font-weight:bold;
+    margin-left:32%;
 }
 
 .jumbotron {
@@ -155,12 +167,7 @@ p {
 }
 
 
-.school {
-    margin-left:20%;
-    margin-top:2%;
-    margin-bottom:2%;
-    width:14%;
-}
+
 
 span{
     float:right;
@@ -215,364 +222,6 @@ span{
 }
 
 
-@media screen and (max-width: 1200px) {
-    #mInfo{
-        width:100%;
-    }
-
-    #con{
-        width:100%;
-    }
-    h4{
-        font-size:120%;
-        font-weight:bold;
-    
-    }
-    
-    span{
-        margin-right:14%;
-        
-    }
-    
-    .contact,
-    {
-    width:6%; 
-    
-}
-}
-
-
-@media only screen and (max-width: 992px) {
-    
-    h4{
-        font-weight:bold;
-        font-size:120%;
-        margin-top:10%;
-           
-    }
-    
-    h5{
-        font-size:100%;
-    }
-    li{
-        font-weight:bold;
-        font-size:90%;
-    }
-
-    .school{
-        margin-left:20%;
-        margin-top:2%;
-        margin-bottom:4%;
-        width:18%;
-    }
-
-    span{
-        float:right;
-        margin-right:16%;
-        margin-top:3%;
-        
-    }
-
-    .contact{
-        margin-left:4%;
-    }
-}
-
-@media screen and (max-width: 991.5px) {
-    #photo{
-        width: 40%;
-        margin-left:30%;
-
-    }
-
-    .school{
-        margin-left:20%;
-        margin-top:2%;
-        margin-bottom:4%;
-        width:16%;
-    }
-
-    span{
-        margin-top:0;
-        margin-right:14%;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    #photo{
-     width: 60%;
-        margin-left:20%;
-    }
-    
-    h4 {
-        font-weight:bold;
-        font-size:100%;
-        margin-top:0%;
-    }
-
-    h5{
-        font-size:90%;
-    }
-    .school{
-        margin-left:2%;
-        margin-top:2%;
-        margin-bottom:4%;
-        width:20%;
-    }
-    
-
-    span{
-        margin-top:6%;
-        margin-right:4%;
-    }
-    
-    
-
-}
-
-@media screen and (max-width: 575.5px) {
-    
-    h4 {
-        font-weight:bold;
-        font-size:100%;
-        margin-top:0%;
-    }
-    
-    h5{
-        font-size:90%;
-    }
-    
-    li{
-        font-size:90%;
-        font-weight:bold;
-    }
-
-    
-
-    
-    
-    .school{
-        margin-left:2%;
-        margin-top:2%;
-        margin-bottom:6%;
-        width:28%;
-    }
-
-    span{
-        margin-top:6%;
-        margin-right:4%;
-    }
-}
-
-@media screen and (max-width: 462.5px) {
-    
-    h4 {
-        font-weight:bold;
-        font-size:80%;
-        margin-top:0%;
-    }
-    
-    h5{
-        font-size:70%;
-    }
-    
-    li{
-        font-size:70%;
-        font-weight:bold;
-    }
-
-    
-
-    
-    
-    .school{
-        margin-left:2%;
-        margin-top:2%;
-        margin-bottom:6%;
-        width:26%;
-    }
-
-    span{
-        margin-top:6%;
-        margin-right:4%;
-    }
-}
-
-
-
-@media screen and (max-width: 414.5px) {
-    
-    h4 {
-        font-weight:bold;
-        font-size:80%;
-        margin-top:0%;
-    }
-    
-    h5{
-        font-size:70%;
-    }
-    
-    li{
-        font-size:70%;
-        font-weight:bold;
-    }
-
-    
-
-    
-    
-    .school{
-        margin-left:2%;
-        margin-top:2%;
-        margin-bottom:6%;
-        width:20%;
-    }
-
-    span{
-        margin-top:6%;
-        margin-right:4%;
-    }
-}
-
-
-@media only screen and (max-width: 411px) {
-    
-    h4 {
-        font-weight:bold;
-        font-size:80%;
-        margin-top:0%;
-    }
-    
-    h5{
-        font-size:70%;
-    }
-    
-    li{
-        font-size:70%;
-        font-weight:bold;
-    }
-
-    
-
-    
-    
-    .school{
-        margin-left:2%;
-        margin-top:2%;
-        margin-bottom:6%;
-        width:20%;
-    }
-
-    span{
-        margin-top:6%;
-        margin-right:4%;
-    }
-}
-
-
-
-@media screen and (max-width: 375px) {
-    
-    h4 {
-        font-weight:bold;
-        font-size:70%;
-        margin-top:0%;
-    }
-
-    h5{
-        font-size:60%;
-    }
-
-    li{
-        font-size:60%;
-        font-weight:bold;
-    }
-
-    
-    
-    .school{
-        margin-left:2%;
-        margin-top:2%;
-        margin-bottom:6%;
-        width:18%;
-    }
-
-    span{
-        margin-top:3%;
-        margin-right:4%;
-    }
-
-}
-
-@media only screen and (max-width: 360px) {
-    
-    h4 {
-        font-weight:bold;
-        font-size:80%;
-        margin-top:0%;
-    }
-
-    h5{
-        font-size:70%;
-    }
-
-    li{
-        font-size:70%;
-        font-weight:bold;
-    }
-
-    
-    
-    .school{
-        margin-left:2%;
-        margin-top:2%;
-        margin-bottom:6%;
-        width:22%;
-    }
-
-    span{
-        margin-top:3%;
-        margin-right:4%;
-    }
-
-}
-
-
-
-
-
-@media screen and (max-width: 320px) {
-    
-    h4 {
-        font-weight:bold;
-        font-size:70%;
-        margin-top:0%;
-    }
-
-    h5{
-        font-size:60%;
-    }
-
-    li{
-        font-size:60%;
-        font-weight:bold;
-    }
-
-    
-    
-    .school{
-        margin-left:2%;
-        margin-top:2%;
-        margin-bottom:6%;
-        width:18%;
-    }
-
-    span{
-        margin-top:3%;
-        margin-right:4%;
-    }
-
-}
 
 
 
