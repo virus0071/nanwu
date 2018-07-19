@@ -11,20 +11,20 @@
     <!-- x icon-->
     <link rel='icon' href='assets/images/nww.png' type='image/x-icon' />
 
-    
 
-    
+
+
 
 
     <!--BootStrap-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-    crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-    
+
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
@@ -33,10 +33,10 @@
     <!--Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Oleo+Script|Paytone+One|Titan+One|Yatra+One" rel="stylesheet">
 
-    <!--JQuery-->    
+    <!--JQuery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    
+
 
     <!--Buttons-->
     <link rel="stylesheet" href="assets/css/buttons.css">
@@ -45,7 +45,7 @@
     <script src="assets/js/parallax.js-1.5.0/parallax.min.js"></script>
 
     <!--Link to Menu Maker-->
-    
+
     <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
     <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>
     <link rel="stylesheet" href="assets/css/menu.css">
@@ -53,7 +53,11 @@
     <!--Local CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    
+    <!--Link to Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script type="text/javascript" src="assets/js/port.js"></script>
+
+
 </head>
 
 <body>
@@ -240,7 +244,7 @@
                             <img class="work" src="assets/images/pro1.png" align="center" />
                         </a>
                         <a href="https://github.com/virus0071/group-pro-before-final.io" class="button button-pill button-primary" target="_blank">
-                        Repo </a>
+                            Repo </a>
                     </div>
 
                 </div>
@@ -254,20 +258,33 @@
 
                     </div>
                 </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 .col-md-6 .col-sm-6 .col-xs-6">
+                    <div class="jumbotron jumbotron-work">
+
+                        <img class="work" src="assets/images/pro5.png" align="center" />
+
+                        <a href="https://github.com/virus0071/liri-node-app.io" class="button button-pill button-primary" target="_blank"> Repo </a>
+                    </div>
+
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-6 .col-md-6 .col-sm-6 .col-xs-6">
-                        <div class="jumbotron jumbotron-work">
-
-                            <img class="work" src="assets/images/pro5.png" align="center" />
-
-                            <a href="https://github.com/virus0071/liri-node-app.io" class="button button-pill button-primary" target="_blank"> Repo </a>
-                        </div>
+                <div class="col-lg-6 .col-md-6 .col-sm-6 .col-xs-6">
+                    <div class="jumbotron jumbotron-work">
+                        <a href="https://virus0071.github.io/addPicture.io/" target="_blank">
+                            <img class="work" src="assets/images/pro6.png" align="center" />
+                        </a>
+                        <a href="https://github.com/virus0071/bamazon.io" class="button button-pill button-primary" target="_blank">Repo</a>
 
                     </div>
                 </div>
-            
+
+            </div>
+
+            </div>
+
         </div>
     </div>
 
@@ -301,38 +318,37 @@
                     <div class="jumbotron" id="con">
                         <div>
                             <h6>Contact Information</h6>
-                            <a href="mailto:virus00719@gmail.com" target="_blank">
-                                <img class="contact" id="gmail" src="assets/images/gmail.png" /> nanwu00719@gmail.com
-                            </a>
-
-                        </div>
-
-                        <div>
-                            <a href="mailto:nanwu@umich.edu" target="_blank">
-                                <img class="contact" id="gmail" src="assets/images/gmail.png" /> nanwu@umich.edu
-                            </a>
-
-
-
-                        </div>
-
-                        <div>
-                            <img class="contact" id="phone" src="assets/images/cell.png" /> +1(440)391-3400
+                            <form id="contact-form">
+                                <ul>
+                                    <li>
+                                        <label for="name">Name</label>
+                                        <input type="text" id="name" name="name" placeholder="First Last" required="required">
+                                    </li>
+                                    <li>
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                                    </li>
+                                    <li>
+                                        <label for="message">Message</label>
+                                        <textarea id="message" name="message" required="required"></textarea>
+                                    </li>
+                                </ul>
+                                <input type="submit" id="sendMeMSG">
+                            </form>
                         </div>
                     </div>
-                </div>
 
+                </div>
+            </div>
             </div>
         </div>
 
-    </div>
-
-    <div id="footer">
-        Copyright © 2018
-    </div>
+        <div id="footer">
+            Copyright © 2018
+        </div>
 
 
-    <script type="text/javascript" src="assets/js/menu.js"></script>
+        <script type="text/javascript" src="assets/js/menu.js"></script>
 
 </body>
 
