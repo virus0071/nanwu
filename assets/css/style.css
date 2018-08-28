@@ -147,6 +147,12 @@ li {
     width:20%;
 }
 
+#mongo {
+    width:20%;
+}
+#node{
+    width:20%;
+}
 
 .jumbotron-work{
     background-image: url("../images/bg5.png");
