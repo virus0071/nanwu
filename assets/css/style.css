@@ -212,11 +212,9 @@ span{
     margin-left:7%;
 }
 
-.contact,
-#phone{
-    width:18%;
-    margin-top:6%;
-    
+.button-glow {
+    width:40%;
+    margin-left: 30%;
 }
 
 #footer{
