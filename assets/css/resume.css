@@ -1,0 +1,50 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+h1{
+    font-family: 'Carter One', cursive;
+}
+
+
+h2{
+    font-family: 'Acme', sans-serif;
+}
+
+h3{
+    font-family: 'Oleo Script', cursive;
+}
+
+h4{
+    font-family: 'Neuton', serif;
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+#info{
+    font-size: 140%;
+}
+
+h5{
+    float: right;
+}
+
+#vwl{
+    text-align: center;
+}
+
+.button-3d{
+    width: 40%;
+    margin-left:30%;
+}
+
+#resumeD{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
